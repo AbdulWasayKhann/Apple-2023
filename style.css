@@ -1,0 +1,388 @@
+.nav_div{
+    width: 100%;
+    display: flex;
+    /* padding-top: 8px; */
+    padding-bottom: 5px;
+    position: fixed;
+    background-color: rgba(248, 248, 248, 0.9);
+}
+.nav_div nav{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: rgb(255, 255, 255); */
+    
+    background-color: rgba(248, 248, 248, 0.9);
+}
+.nav_div a{
+    text-decoration: none;
+}
+.nav_div nav{
+    display: flex;
+}
+.logo{
+    width: 19px;
+    height: 19px;
+    /* padding-left: 10px; */
+}
+.apple{
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 15px;
+    font-size: 12px;
+    color:black;
+}
+.searchlogo{
+    padding-right: 1px;
+    padding-left: 15px;
+    /* padding: px; */
+    width: 30px;
+}
+.shopbag{
+    padding-right: 1px;
+    padding-left: 35px;
+    /* padding: 2px; */
+    width: 50px;
+}
+/*  */
+
+.div_1{
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.div_1 a{
+    text-decoration: none;
+}
+
+.add_div_1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 56px; */
+    text-align: center;
+    /* font-weight: 600; */
+    color: white;
+}
+.add_div_1_p_1{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    padding-top: 45px;
+}
+#background1{
+    width: 1349px;
+    height: 630px;
+    /* padding: 11em; */
+    background-image: url(image/AppleAdd1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    
+}
+#background1 a{
+    text-decoration: none;
+}
+.add_div_1_p_2{
+    font-size: 30px;
+}
+.learn_buy_div{
+    font-size: 20px;
+}
+
+.add_div_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 56px; */
+    text-align: center;
+    /* font-weight: 600; */
+    color: black;
+}
+.add_div_2_p_1{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    padding-top: 45px;
+}
+#background2{
+    width: 1349px;
+    height: 700px;
+    /* padding: 11em; */
+    background-image: url(image/AppleAdd2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    
+}
+#background2 a{
+    text-decoration: none;
+}
+
+/*  */
+#background3{
+    width: 1349px;
+    height: 720px;
+    /* padding: 11em; */
+    background-image: url(image/AppleAdd3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    
+}
+#background3 a{
+    text-decoration: none;
+}
+
+/* ----Cards---- */
+.div_card_1{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+}
+
+.Apple_Card_1{
+    width: 1800px;
+    height: 650px;
+    background-image: url(image/AppleCard1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    /* background-size: 600px; */
+}
+.Apple_Card_1 div{
+    font-size: 21px;
+}
+.Apple_Card_1 a{
+    font-size: large;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.Apple_Card_1 a p{
+    padding-top: 10px;
+}
+.Apple_Card_1 h1{
+    padding-top: 50px;
+}
+.Apple_Card_2{
+    width: 1700px;
+    height: 650px;
+    background-image: url(image/AppleCard2.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    
+    background-position: center;
+    /* background-size: 600px; */
+}
+.Apple_Card_2 img{
+    width: 140px;
+    padding-top: 60px;
+}
+.Apple_Card_2 .a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: brown;
+    word-spacing: 1px;
+    padding-top: 13px;
+}
+.Apple_Card_2 .b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: white;
+    word-spacing: 1px;
+}
+.Apple_Card_2 a{
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 100;
+}
+/*  */
+.div_card_2{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+}
+.Apple_Card_3{
+    width: 1800px;
+    height: 650px;
+    background-image: url(image/AppleCard3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    /* background-size: 600px; */
+}
+.Apple_Card_3 img{
+    width: 200px;
+    padding-top: 440px;
+}
+.Apple_Card_3 .c{
+    font-size: larger;
+    font-weight: 500;
+}
+.Apple_Card_3 .d{
+    color: gray;
+}
+.Apple_Card_3 a{
+    text-decoration: none;
+    font-size: large;
+}
+.Apple_Card_3 div{
+    padding-top: 10px;
+}
+
+
+
+
+.Apple_Card_4{
+    width: 1800px;
+    height: 650px;
+    background-image: url(image/AppleCard4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    /* background-size: 600px; */
+}
+
+.Apple_Card_4 img{
+    width: 170px;
+    padding-top: 70px;
+}
+.Apple_Card_4 .e{
+    font-size: larger;
+    font-weight: 500;
+}
+.Apple_Card_4 .d{
+    color: gray;
+}
+.Apple_Card_4 a{
+    text-decoration: none;
+    font-size: large;
+}
+.Apple_Card_4 div{
+    padding-top: 10px;
+}
+
+
+/* div  3 */
+.div_card_3{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+}
+.Apple_Card_5{
+    width: 1800px;
+    height: 650px;
+    background-image: url(image/AppleCard5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: bottom;
+    /* background-size: 600px; */
+}
+
+.Apple_Card_5 img{
+    width: 120px;
+    padding-top: 70px;
+}
+.Apple_Card_5 .c{
+    font-size: larger;
+    font-weight: 500;
+}
+.Apple_Card_5 .d{
+    color: gray;
+}
+.Apple_Card_5 a{
+    text-decoration: none;
+    font-size: large;
+}
+.Apple_Card_5 div{
+    padding-top: 10px;
+}
+
+
+
+
+
+.Apple_Card_6{
+    width: 1800px;
+    height: 650px;
+    background-image: url(image/AppleCard6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    /* background-size: 600px; */
+}
+
+.Apple_Card_6 img{
+    width: 120px;
+    padding-top: 70px;
+}
+.Apple_Card_6 .e{
+    font-size: larger;
+    font-weight: 500;
+}
+.Apple_Card_6 a{
+    text-decoration: none;
+    font-size: large;
+}
+.Apple_Card_6 div{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+.pera2{
+    font-size: 13px;
+    color: rgb(146, 145, 145);
+    line-height: 15px;
+}
+#main3{
+    background-color: rgb(241, 234, 234);
+    font-size: 13PX;
+}
+#points{
+    width: 900px;
+    padding-left: 119px;
+    padding-top: 19px;
+}
+
+th{
+    /* padding: px;
+    padding-left: 110px;
+    padding-top: 0px; */
+    text-align: left;
+}
+td{
+    color: rgb(146, 145, 145);    
+}
+.last{
+    padding-left: 122px;
+    color: rgb(146, 145, 145);
+}
+
